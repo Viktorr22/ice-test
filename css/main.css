@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+/* .ice-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  animation-name: hidden;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+} */
+
+.ice-box {
+  /* background-image: url(/images/brooke-lark-8beTH4VkhLI-unsplash\ 1.jpg); */
+  border-radius: 24px;
+  width: 1113px;
+  height: 422px;
+  overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  animation-name: hidden;
+  animation-duration: 10000ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+body {
+  background-color: aqua;
+}
+@keyframes hidden {
+  0% {
+    background-image: url(/images/brooke-lark-8beTH4VkhLI-unsplash\ 1.jpg);
+    background-size: cover;
+  }
+  50% {
+    background-image: url(/images/courtney-cook-QYsRxRPygwU-unsplash\ 1.jpg);
+    background-size: cover;
+  }
+  100% {
+    background-image: url(/images/kenta-kikuchi-LZ6BTZnizD8-unsplash\ 1.jpg);
+    background-size: cover;
+  }
+}
+.ani-box {
+  width: 200px;
+  height: 200px;
+  background-color: tomato;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 100px;
+  animation-name: coloro;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+}
+@keyframes coloro {
+  0% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: green;
+  }
+}
