@@ -1,6 +1,6 @@
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 /* .ice-img {
   display: block;
@@ -12,7 +12,6 @@
 } */
 
 .ice-box {
-  /* background-image: url(/images/brooke-lark-8beTH4VkhLI-unsplash\ 1.jpg); */
   border-radius: 24px;
   width: 1113px;
   height: 422px;
@@ -41,6 +40,7 @@ body {
   100% {
     background-image: url(/images/kenta-kikuchi-LZ6BTZnizD8-unsplash\ 1.jpg);
     background-size: cover;
+    background-position-y: center;
   }
 }
 .ani-box {
@@ -54,7 +54,7 @@ body {
   animation-duration: 3000ms;
   animation-iteration-count: infinite;
 }
-@keyframes coloro {
+/* @keyframes coloro {
   0% {
     background-color: yellow;
   }
@@ -64,4 +64,4 @@ body {
   100% {
     background-color: green;
   }
-}
+} */
